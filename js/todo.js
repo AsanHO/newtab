@@ -26,6 +26,8 @@ function paintToDo(newTodo) {
   li.id = newTodo.id;
   span.innerText = newTodo.text;
   btn.innerText = "❌";
+  btn.style.backgroundColor = "rgba(255, 255, 255, 0)";
+  btn.style.border = "none";
   btn.addEventListener("click", deleteToDo);
   li.appendChild(span);
   li.appendChild(btn);

@@ -3,7 +3,7 @@ const clock = document.querySelector(".clock");
 
 function getclock() {
   const date = new Date(); // 전역함수 지정시 값이 고정되어버림, 함수안에 집어넣어야 값이 계속 변화함. 이유는 모른다.
-  const month = String(date.getMonth()).padStart(2, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
   const dates = String(date.getDate()).padStart(2, "0");
   const hour = String(date.getHours()).padStart(2, "0");
   const minute = String(date.getMinutes()).padStart(2, "0");
@@ -16,7 +16,7 @@ function getclock() {
     "목요일",
     "금요일",
     "토요일"
-  ); //노마드코더식 배열이 함수안에선 먹히지가 않음.ㄴ
+  ); //노마드코더식 배열이 함수안에선 먹히지가 않음.
   const today = new Date().getDay();
   const todayLabel = week[today];
 

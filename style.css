@@ -42,11 +42,15 @@ body {
   font-size: 20px;
 }
 .welcome span:last-child {
-  margin-top: 60px;
-  font-size: 20px;
+  font-size: 40px;
 }
+.hidden {
+  display: none;
+}
+
 /* 투두리스트 디자인 */
 input {
+  text-align: center;
   background-color: rgba(255, 255, 255, 0);
   border: none;
   /* border-bottom: 1px solid white; */

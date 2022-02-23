@@ -5,22 +5,18 @@ const quotes = [
   },
   {
     quote: "있을 때 잘해라. 그러나 없을때는 당당하라",
-    author: "이병철",
+    author: "李秉喆",
   },
   {
-    quote: "시련은 있어도 실패는 없는거야",
-    author: "정주영",
+    quote: "There are trials, but there are no failures.",
+    author: "鄭周永",
   },
   {
-    quote: "백만장자는 사건이 아니라 과정에 의해 만들어진다.",
+    quote: "Millionaires are made by processes, not events.",
     author: "Mj De Marco",
   },
   {
-    quote: "절대 포기하지 않는다.해낸다. 해내고 만다. 해낼 생각밖에 없다.",
-    author: "이은호",
-  },
-  {
-    quote: "위대한 회사는 위대한 상품으로써 지어진다.",
+    quote: "The great company being built by great product",
     author: "Elon Musk",
   },
   {
@@ -29,7 +25,7 @@ const quotes = [
   },
   {
     quote:
-      "행운의 여신은 용감한 남자를 사랑한다. 그녀를 때려눕히는 남자가 그녀를 가질수 있다.",
+      "a man who wants to subdue fortuna must treat her like the woman she is, and approach her with boldness and roughness",
     author: "Niccolò Machiavelli",
   },
   {

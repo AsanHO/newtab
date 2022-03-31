@@ -1,4 +1,4 @@
-const vids = ["PURSUIT.mp4", "seal.mp4", "2.mp4"];
+const vids = ["PURSUIT.mp4", "jordan.mp4", "2.mp4"];
 
 const chosenVid = vids[Math.floor(Math.random() * vids.length)];
 

@@ -13,7 +13,7 @@ setInterval(() => {
     now = new Date(sec * 1000);
     timeString = now.toISOString().split("T00:")[1].split(".")[0];
     time.innerText = timeString;
-    if (sec == 3) {
+    if (sec == 2700) {
       if (isDW) {
         DWtoken++;
       }

@@ -3,6 +3,7 @@
 /* 비디오를 맨 밑 레이어에 둘 것 */
 /* 소리 재생 되게 할 것 */
 video {
+  filter: brightness(0.5);
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -27,6 +28,7 @@ body {
   padding: 0;
   text-shadow: 2px 2px 4px red;
   flex-direction: column;
+  background-color: #292929;
 }
 .welcome {
   display: flex;
@@ -51,8 +53,8 @@ body {
 /* 투두리스트 디자인 */
 input {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0);
   border: none;
+  background-color: rgba(0, 0, 0, 0);
   /* border-bottom: 1px solid white; */
   color: white;
   font-size: 40px;
@@ -76,4 +78,44 @@ input:focus {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+.DW {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 300px;
+}
+.DW div {
+  display: flex;
+  align-items: center;
+}
+.DWtimer {
+  width: 208px;
+  font-size: 80px;
+  border: 1px solid white;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.DW div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  border-radius: 10px;
 }
